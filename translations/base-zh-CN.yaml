@@ -36,7 +36,7 @@ steamPage:
         translate: 帮助汉化（翻译）组！
     text_open_source: |-
         任何人都可以对这个游戏做出贡献，我会活跃在游戏社区中并 尽最大可能积极参考大家对这个游戏的的全部建议和反馈。
-        请关注我的 trello board 以获取 the full roadmap！
+        请关注我的 trello board 以获取完整 roadmap！
 global:
     loading: 加载中
     error: 错误
@@ -78,7 +78,7 @@ mainMenu:
     openSourceHint: 本游戏已开源！
     discordLink: 官方Discord服务器
     helpTranslate: 帮助我们翻译！
-    browserWarning: 很抱歉, 本游戏在当前浏览器上可能运行缓慢! 使用 Chrome 或者获取独立版以得到更好的体验。
+    browserWarning: 很抱歉, 本游戏在当前浏览器上可能运行缓慢! 使用 Chrome 或者获取本地版以得到更好的体验。
     savegameLevel: 第<x>关
     savegameLevelUnknown: 未知关卡
     continue: 继续游戏
@@ -110,9 +110,9 @@ dialogs:
         text: 未能导入你的存档：
     confirmSavegameDelete:
         title: 确认删除
-        text: Are you sure you want to delete the following game?<br><br>
-            '<savegameName>' at level <savegameLevel><br><br> This can not be
-            undone!
+        text: 你确定要删除本游戏吗?<br><br>
+            '<savegameName>' 在 <savegameLevel> 关卡<br><br>
+            此行动不可撤销!
     savegameDeletionError:
         title: 删除错误
         text: 未能删除你的存档
@@ -154,8 +154,8 @@ dialogs:
             class='keybinding'>ALT</code>: 反向放置传送带。<br>"
     createMarker:
         title: 创建地图标记
-        desc: Give it a meaningful name, you can also include a <strong>short
-            key</strong> of a shape (Which you can generate <link>here</link>)
+        desc: 请给它起一个有意义的名字, 也可以给它一个形状的 <strong>短
+            码</strong> (可以在 <link>这里</link>生成)
         titleEdit: 编辑地图标记
     markerDemoLimit:
         desc: 在试玩版中你只能创建两个地图标记。请获取独立版以创建更多标记。
@@ -181,9 +181,9 @@ dialogs:
         desc: There is a tutorial video available for this level! Would you like to
             watch it?
     tutorialVideoAvailableForeignLanguage:
-        title: Tutorial Available
-        desc: There is a tutorial video available for this level, but it is only
-            available in English. Would you like to watch it?
+        title: 教程可用
+        desc: 这一关又可用的教程, 但只有英文版的
+            。 你想观看吗?
 ingame:
     keybindingsOverlay:
         moveMap: 移动地图
@@ -224,7 +224,7 @@ ingame:
     notifications:
         newUpgrade: 有新更新啦！
         gameSaved: 游戏已保存。
-        freeplayLevelComplete: Level <level> has been completed!
+        freeplayLevelComplete: 关卡 <level>已完成!
     shop:
         title: 建筑升级
         buttonUnlock: 升级
